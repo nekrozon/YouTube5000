@@ -1,0 +1,47 @@
+:root {
+    --primary: #FFCE00;
+    --secondary: #171717;
+    --light: #F3F3F3;
+    --font-stack: 'Roboto', 'Helvetica', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary);
+    font-family: var(--font-stack);
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 100%;
+    max-width: 866px;
+}
+
+h1 {
+    color: var(--primary);
+    font-size: 42px;
+    font-weight: 900;
+    text-align: center;
+}
+
+h1 span {
+    color: var(--light);
+    font-weight: 300;
+}
+
+
+p {
+    color: var(--primary);
+}
